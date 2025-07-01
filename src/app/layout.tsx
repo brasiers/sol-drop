@@ -16,17 +16,17 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Sol-Drop - The Premier Solana Faucet",
+  title: "SolDrop - The Premier Solana Faucet",
   description:
-    "Get free Solana ($SOL) instantly with Sol-Drop. The fastest and most reliable faucet for Solana developers and users.",
+    "Get free Solana ($SOL) instantly with SolDrop. The fastest and most reliable faucet for Solana developers and users.",
   icons: {
     icon: "/logo.png",
   },
   openGraph: {
-    title: "Sol-Drop - The Premier Solana Faucet",
-    description: "Get free Solana ($SOL) instantly with Sol-Drop. The fastest and most reliable faucet for Solana developers and users.",
+    title: "SolDrop - The Premier Solana Faucet",
+    description: "Get free Solana ($SOL) instantly with SolDrop. The fastest and most reliable faucet for Solana developers and users.",
     url: "https://sol-drop.fun", 
-    siteName: "Sol Drop",
+    siteName: "SolDrop",
     images: [
       {
         url: "/og-image.png",
@@ -39,8 +39,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Sol-Drop - The Premier Solana Faucet",
-    description: "Get free Solana ($SOL) instantly with Sol-Drop. The fastest and most reliable faucet for Solana developers and users.",
+    title: "SolDrop - The Premier Solana Faucet",
+    description: "Get free Solana ($SOL) instantly with SolDrop. The fastest and most reliable faucet for Solana developers and users.",
     images: ["/og-image.png"],
   },
 }
