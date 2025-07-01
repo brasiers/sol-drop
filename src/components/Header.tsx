@@ -1,6 +1,7 @@
 "use client";
 
 import { Github, Heart, Droplets, Twitter } from "lucide-react";
+import Image from "next/image";
 
 interface HeaderProps {
   onDonateClick: () => void;
@@ -10,8 +11,14 @@ export function Header({ onDonateClick }: HeaderProps) {
   return (
     <div className="flex items-center justify-between p-6 bg-zinc-900/20 backdrop-blur-sm border-b border-slate-700/50">
       <div className="flex items-center gap-3">
-        <div className="w-10 h-10 bg-gradient-to-br from-cyan-400 via-blue-500 to-purple-600 rounded-xl flex items-center justify-center shadow-lg">
-          <Droplets className="w-6 h-6 text-white" />
+        <div className="w-10 h-10 bg-transparent rounded-xl flex items-center justify-center shadow-lg">
+        <Image
+          src="/logo.png"
+          alt="Logo"
+          width={40}
+          height={40}
+          className="rounded-xl shadow-lg"
+        />
         </div>
         <div>
           <span className="text-2xl font-bold bg-gradient-to-r from-cyan-400 to-purple-400 bg-clip-text text-transparent">
