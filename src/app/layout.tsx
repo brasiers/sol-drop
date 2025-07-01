@@ -20,16 +20,16 @@ export const metadata: Metadata = {
   description:
     "Get free Solana ($SOL) instantly with Sol-Drop. The fastest and most reliable faucet for Solana developers and users.",
   icons: {
-    icon: "/favicon.png",
+    icon: "/logo.png",
   },
   openGraph: {
     title: "Sol-Drop - The Premier Solana Faucet",
     description: "Get free Solana ($SOL) instantly with Sol-Drop. The fastest and most reliable faucet for Solana developers and users.",
-    url: "https://sol-drop.fun", // Replace with your actual domain
+    url: "https://sol-drop.fun", 
     siteName: "Sol Drop",
     images: [
       {
-        url: "/og-image.png", // Create and add an OG image to your public folder
+        url: "/og-image.png",
         width: 1200,
         height: 630,
       },
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Sol-Drop - The Premier Solana Faucet",
     description: "Get free Solana ($SOL) instantly with Sol-Drop. The fastest and most reliable faucet for Solana developers and users.",
-    images: ["/og-image.png"], // Create and add an OG image
+    images: ["/og-image.png"],
   },
 }
 
