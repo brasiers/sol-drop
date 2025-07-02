@@ -36,7 +36,7 @@ export function Header({ onDonateClick }: HeaderProps) {
             <HandCoins className="w-5 h-5" />
           </button>
           <button
-            onClick={() => window.open("https://github.com/uhsr/soldrop", "_blank")}
+            onClick={() => window.open("https://github.com/brasiers/sol-drop", "_blank")}
             className="p-3 text-slate-400 hover:text-white transition-all duration-200 hover:bg-slate-800/50 rounded-xl"
           >
             <Github className="w-5 h-5" />
