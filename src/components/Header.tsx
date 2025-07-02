@@ -23,7 +23,7 @@ export function Header({ onDonateClick }: HeaderProps) {
           <span className="text-2xl font-bold bg-gradient-to-r from-cyan-400 to-purple-400 bg-clip-text text-transparent">
             SOLDROP
           </span>
-          <p className="text-xs text-slate-400 font-medium">Mainnet Faucet</p>
+          <p className="text-xs text-slate-400 font-medium">Solana Faucet</p>
         </div>
       </div>
 
