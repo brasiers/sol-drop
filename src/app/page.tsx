@@ -164,8 +164,8 @@ export default function Faucet() {
       <div className="flex-1 flex items-center justify-center px-4 py-12">
         <div className="w-full max-w-lg space-y-8">
           <div className="text-center space-y-6">
-            <h1 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-400 bg-clip-text text-transparent pb-2">
-              SOL DROP
+            <h1 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-cyan-400 to-purple-400 bg-clip-text text-transparent pb-2">
+              SOLDROP
             </h1>
             <p className="text-slate-400 text-lg max-w-md mx-auto leading-relaxed">
               Instantly receive {DROPLET_AMOUNT_SOL} SOL for development and
