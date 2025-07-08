@@ -6,7 +6,7 @@ import { PublicKey } from "@solana/web3.js";
 import { Loader2, Zap } from "lucide-react";
 import { toast, Toaster } from "sonner";
 import HCaptcha from "@hcaptcha/react-hcaptcha";
-
+import Image from "next/image";
 import { Header } from "@/components/Header";
 import { BalanceDisplay } from "@/components/Balance";
 import { AddressInput } from "@/components/Input";
@@ -164,9 +164,18 @@ export default function Faucet() {
       <div className="flex-1 flex items-center justify-center px-4 py-12">
         <div className="w-full max-w-lg space-y-8">
           <div className="text-center space-y-6">
-            <h1 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-cyan-400 to-purple-400 bg-clip-text text-transparent pb-2">
+            {/* <h1 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-cyan-400 to-purple-400 bg-clip-text text-transparent pb-2">
               SOLDROP
-            </h1>
+            </h1> */}
+            <div className="bg-transparent flex items-center justify-center max-w-md">
+              <Image
+                src="/soldroplogo.png"
+                alt="Logo"
+                width={480}
+                height={240}
+                className=""
+              />
+              </div>
             <p className="text-slate-400 text-lg max-w-md mx-auto leading-relaxed">
               Instantly receive {DROPLET_AMOUNT_SOL} SOL for development and
               testing on Solana mainnet. Fast, reliable, and completely free.
