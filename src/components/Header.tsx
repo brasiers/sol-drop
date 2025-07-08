@@ -10,21 +10,31 @@ export function Header({ onDonateClick }: HeaderProps) {
   return (
     <div className="flex items-center justify-between p-6 bg-zinc-900/20 backdrop-blur-sm border-b border-slate-700/50">
       <div className="flex items-center gap-3">
-      <div className="w-10 h-10 bg-transparent rounded-xl flex items-center justify-center shadow-lg">
-        <Image
+      {/* <div className="w-10 h-10 bg-transparent rounded-xl flex items-center justify-center shadow-lg"> */}
+        {/* <Image
           src="/logo.png"
           alt="Logo"
           width={40}
           height={40}
           className="rounded-xl shadow-lg"
-        />
-        </div>
-        <div>
+        /> */}
+        {/* </div> */}
+        {/* <div>
           <span className="text-2xl font-bold bg-gradient-to-r from-cyan-400 to-purple-400 bg-clip-text text-transparent">
             SOLDROP
           </span>
           <p className="text-xs text-slate-400 font-medium">Solana Faucet</p>
-        </div>
+        </div> */}
+        <div className="bg-transparent rounded-xl flex flex-col items-center justify-center mr-3">
+              <Image
+                src="/soldroplogo.png"
+                alt="Logo"
+                width={120}
+                height={60}
+                className="rounded-xl"
+              />
+                <p className="text-xs text-slate-400 font-medium -mt-1 ml-2">Solana Faucet</p>
+              </div>
       </div>
 
       <div className="flex items-center gap-3">
