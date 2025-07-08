@@ -21,7 +21,7 @@ export function BalanceDisplay({ balance, isLoading }: BalanceDisplayProps) {
             <Loader2 className="w-8 h-8 animate-spin text-cyan-400" />
           </div>
         ) : (
-          <p className="text-4xl font-bold bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-400 bg-clip-text text-transparent">
+          <p className="text-4xl font-bold bg-gradient-to-r from-blue-400 to-pink-300 bg-clip-text text-transparent">
             {balance || "0.0000"} SOL
           </p>
         )}
