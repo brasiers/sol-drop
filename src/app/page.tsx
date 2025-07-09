@@ -13,6 +13,7 @@ import { AddressInput } from "@/components/Input";
 import { WalletConnection } from "@/components/Wallet";
 import { SuccessMessage } from "@/components/Success";
 import { DonationModal } from "@/components/Donate";
+import Link from "next/link";
 
 const DROPLET_AMOUNT_SOL = 0.01;
 
@@ -263,7 +264,7 @@ export default function Faucet() {
       <div className="p-6 text-center border-t border-slate-800/50 bg-zinc-900/20">
         <p className="text-slate-500 text-sm">
           Built with ❤️ by{" "}
-          <span className="text-cyan-400 font-semibold">SolDrop Team</span>
+          <Link href="https://x.com/Brasiers"><span className="text-cyan-400 font-semibold">@Brasiers</span></Link>
         </p>
       </div>
 
