@@ -145,7 +145,7 @@ export default function Faucet() {
 
   return (
     
-
+  <div><p>coming soon</p></div>
       
   );
 }
