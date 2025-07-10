@@ -1,6 +1,5 @@
 "use client";
 
-
 import { useState, useEffect, useRef } from "react";
 import { useWallet } from "@solana/wallet-adapter-react";
 import { PublicKey } from "@solana/web3.js";
@@ -131,7 +130,7 @@ export default function Faucet() {
       return;
     }
 
-    if (!faucetBalance || faucetBalance <= DROPLET_AMOUNT_SOL) {
+    if (!faucetBalance || faucetBalance < DROPLET_AMOUNT_SOL) {
       toast.error("The faucet is currently empty. Feel free to contribute using the donate button.");
       return;
     }
