@@ -19,9 +19,10 @@ export async function GET() {
     const balanceSol = balanceLamports / LAMPORTS_PER_SOL;
 
     return NextResponse.json({
-      balance: balanceSol.toFixed(4),
+      balance: balanceSol,
       address: payer.publicKey.toBase58(),
     });
+
   } catch (err: any) {
     return NextResponse.json(
       { error: "Failed to fetch balance", detail: err.message },
