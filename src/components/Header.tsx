@@ -40,7 +40,7 @@ export function Header({ onDonateClick }: HeaderProps) {
       <div className="flex items-center gap-3">
         <div className="flex items-center gap-1">
           <button
-            onClick={() => window.open("https://dexscreener.com/solana/", "_blank")}
+            onClick={() => window.open("https://dexscreener.com/solana/3Sw1F6ajNdnFLe1tasGDXXRFGYukkijj1wFrcM1BuBLV", "_blank")}
             className="p-3 text-slate-400 hover:text-white transition-all duration-200 hover:bg-slate-800/50 rounded-xl"
           >
             <HandCoins className="w-5 h-5" />
